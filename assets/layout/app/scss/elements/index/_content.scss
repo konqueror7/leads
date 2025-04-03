@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'Inter';
-  src: url('/assets/layout/app/fonts/inter/Inter-VariableFont_opsz,wght.woff2') format('woff2');
+  src: url('assets/layout/app/fonts/inter/Inter-VariableFont_opsz,wght.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Inter Italic';
-  src: url('/assets/layout/app/fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff2') format('woff2');
+  src: url('assets/layout/app/fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('/assets/layout/app/fonts/montserrat/Montserrat-VariableFont_wght.woff2') format('woff2');
+  src: url('assets/layout/app/fonts/montserrat/Montserrat-VariableFont_wght.woff2') format('woff2');
 }@font-face {
   font-family: 'Montserrat Italic';
-  src: url('/assets/layout/app/fonts/montserrat/Montserrat-Italic-VariableFont_wght.woff2') format('woff2');
+  src: url('assets/layout/app/fonts/montserrat/Montserrat-Italic-VariableFont_wght.woff2') format('woff2');
 }
 
 :root {
@@ -363,7 +363,7 @@ h3 {
       margin-right: 8px;
       width: 40px;
       height: 40px;
-      background: url(/assets/layout/app/images/sprite5.png) no-repeat;
+      background: url(assets/layout/app/images/sprite5.png) no-repeat;
       background-size: 72px 858px;
       background-position: 0 -738px;
       @media (max-width: 1400px) {
@@ -520,7 +520,7 @@ section {
           &:after{
             position: absolute;
             content: '';
-            background: url(/assets/layout/app/images/sprite5.png) no-repeat;
+            background: url(assets/layout/app/images/sprite5.png) no-repeat;
             background-size: 72px 858px;
             background-position: 0 -468px;
             top: 0;
@@ -561,7 +561,7 @@ section {
     .pick-pack-img {
       grid-column: 7 / 13;
       grid-row: 1 / 2;
-      background-image: url("/assets/layout/app/icons/star-4-black-tilt-left.svg"), url("/assets/layout/app/icons/star-4-black-tilt-left.svg");
+      background-image: url("assets/layout/app/icons/star-4-black-tilt-left.svg"), url("assets/layout/app/icons/star-4-black-tilt-left.svg");
       background-size: 60px, 60px;
       background-repeat: no-repeat, no-repeat;
       background-position: 0 360px, 800px 106px;
@@ -580,7 +580,7 @@ section {
         grid-column: 1 / 5;
       }
       img {
-        mask: url('/assets/layout/app/icons/mask_girl.svg');
+        mask: url('assets/layout/app/icons/mask_girl.svg');
         mask-repeat: no-repeat;
         @media (max-width: 1780px){
             width: 90%;
@@ -727,7 +727,7 @@ section {
               font-size: min(3.78vw,29px);
               margin-bottom: min(3.25vw,25px);
             }
-            //background-image: url("/assets/layout/app/icons/star-4-tilt-right.svg");
+            //background-image: url("assets/layout/app/icons/star-4-tilt-right.svg");
             //background-size: 42px;
             //background-size: 42px;
             //background-repeat: no-repeat;
@@ -735,7 +735,7 @@ section {
             &:after {
               position: absolute;
               content: '';
-              background: url("/assets/layout/app/icons/star-4-tilt-right.svg") no-repeat;
+              background: url("assets/layout/app/icons/star-4-tilt-right.svg") no-repeat;
               background-size: 44px;
               background-position: top right;
               top: 0;
@@ -1031,7 +1031,7 @@ section {
         padding: min(3.90vw,40px);
       }
       &-title {
-        background: url("/assets/layout/app/icons/star-4-black-tilt-left.svg") no-repeat;
+        background: url("assets/layout/app/icons/star-4-black-tilt-left.svg") no-repeat;
         background-size: 48px;
         background-position: right top;
         @media (min-width: 769px) and (max-width: 1780px) {
@@ -1218,7 +1218,7 @@ section {
                 //height: min(2.5vw,49px);
               }
             }
-            //background: url("/assets/layout/app/icons/star-4-black-tilt-left.svg") repeat-x 49px;
+            //background: url("assets/layout/app/icons/star-4-black-tilt-left.svg") repeat-x 49px;
             //background-position: right top;
           }
           .reviews-text{
@@ -1284,7 +1284,7 @@ section {
               left: 0;
               bottom: 0;
               right: 0;
-              background: url("/assets/layout/app/icons/play_triangle.svg") no-repeat center;
+              background: url("assets/layout/app/icons/play_triangle.svg") no-repeat center;
               background-size: 70px;
               cursor: pointer;
             }
@@ -1325,7 +1325,7 @@ section {
       row-gap: var(--column-gap);
     }
     &-img {
-      background-image: url(/assets/layout/app/icons/star-4-black-tilt-left.svg), url(/assets/layout/app/icons/star-4-tilt-right.svg);
+      background-image: url(assets/layout/app/icons/star-4-black-tilt-left.svg), url(assets/layout/app/icons/star-4-tilt-right.svg);
       background-size: 72px, 57px;
       background-position: 83px 11px, 758px 447px;
       background-repeat: no-repeat, no-repeat;
@@ -1393,7 +1393,7 @@ section {
             &:after{
               position: absolute;
               content: '';
-              background: url(/assets/layout/app/images/sprite5.png) no-repeat;
+              background: url(assets/layout/app/images/sprite5.png) no-repeat;
               background-size: 72px 858px;
               background-position: 0 -661px;
               top: -5px;
@@ -1481,7 +1481,7 @@ section {
     .registration-first-picture {
       padding: 0 0 0 77px;
       //padding: 60px 120px 60px 77px;
-      background-image: url(/assets/layout/app/icons/star-4-black-tilt-left.svg);
+      background-image: url(assets/layout/app/icons/star-4-black-tilt-left.svg);
       background-size: 88px 89px;
       background-position: left 101px bottom 5px;
       //background-position: left 101px bottom 65px;
@@ -1502,7 +1502,7 @@ section {
       img {
         width: 100%;
         aspect-ratio: 1.69;
-        mask: url('/assets/layout/app/icons/first-reg.svg');
+        mask: url('assets/layout/app/icons/first-reg.svg');
         mask-size: 100% 100%;
         //mask-size: auto 100%;
         //mask-size: 100% auto;
@@ -1553,7 +1553,7 @@ section {
             &:after{
               position: absolute;
               content: '';
-              background: url(/assets/layout/app/images/sprite6.png) no-repeat;
+              background: url(assets/layout/app/images/sprite6.png) no-repeat;
               background-size: 72px 460px;
               background-position: 0;
               top: 0;
@@ -1654,7 +1654,7 @@ section {
         left: 0;
         bottom: 0;
         right: 0;
-        background: url(/assets/layout/app/icons/play_triangle.svg) no-repeat center;
+        background: url(assets/layout/app/icons/play_triangle.svg) no-repeat center;
         background-size: auto;
         background-size: 70px;
         cursor: pointer;
@@ -1708,7 +1708,7 @@ section {
         &:before{
           position: absolute;
           content: '';
-          background: url(/assets/layout/app/images/sprite5.png) no-repeat;
+          background: url(assets/layout/app/images/sprite5.png) no-repeat;
           background-size: 72px 858px;
           background-position: top left;
           top: -65px;
@@ -1947,7 +1947,7 @@ section {
       &:after{
         position: absolute;
         content: '';
-        background: url(/assets/layout/app/images/sprite5.png) no-repeat;
+        background: url(assets/layout/app/images/sprite5.png) no-repeat;
         background-size: 72px 858px;
         background-position: 0 -548px;
         top: 170px;
