@@ -1,0 +1,24 @@
+.icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  fill: $black;
+}
+
+// нужные иконки оборачиваем в span.circle-icon
+//.circle-icon {
+//  width: 2rem;
+//  height: 2rem;
+//  background: $accent;
+//  border-radius: 50%;
+//  display: inline-flex;
+//  justify-content: center;
+//  align-items: center;
+//}
+
+{{#shapes}}
+.icon-{{base}} {
+  font-size:1rem;
+  width:1rem;
+}
+{{/shapes}}
